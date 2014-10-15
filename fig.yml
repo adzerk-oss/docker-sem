@@ -1,0 +1,10 @@
+db:
+  image: postgres
+  ports:
+    - "5432"
+sem:
+  image: alandipert/sem:0.9.12
+  volumes:
+    - .:/app
+  links:
+    - db
