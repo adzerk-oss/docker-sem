@@ -4,7 +4,12 @@
 
 [Schema Evolution Manager](https://github.com/gilt/schema-evolution-manager)
 (sem) is a Ruby-based tool for developing, deploying, and otherwise
-managing PostgreSQL schema.  It is excellent.
+managing PostgreSQL schema.  In a nutshell, `sem` supports the idea
+that you should manage your database schema like a library dependency,
+with its own repository, version number, and deployment process.  The
+`sem`
+[Project Goals](https://github.com/gilt/schema-evolution-manager#project-goals)
+elaborate further.
 
 This project is a [Docker](https://www.docker.com/) image containing a
 `sem` installation.  It is useful primarily because Ruby setup can be
