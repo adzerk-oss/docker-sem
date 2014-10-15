@@ -57,7 +57,7 @@ Next, apply schema to the fresh database:
 
     fig run sem apply --host db_1 --name sample_db --user postgres
 
-## Errata
+## Differences from native `sem`
 
 Publishing releases using this image must be done slightly differently
 than with a native `sem` installation.  You shouldn't run `sem-dist`
